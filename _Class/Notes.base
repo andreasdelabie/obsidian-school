@@ -22,4 +22,4 @@ views:
       file.name: 200
       file.ctime: 200
       file.mtime: 200
-      note.completed: 125
+      note.completed: 100
