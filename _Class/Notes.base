@@ -1,7 +1,7 @@
 filters:
   and:
     - file.name != this.file.folder
-    - file.name != "Cornell Note"
+    - file.folder == this.file.folder
 views:
   - type: table
     name: All Notes
