@@ -7,7 +7,7 @@ completed: false
 
 | Term | Definition |
 | ---- | ---------- |
-|      |            |
+| | |
 
 ## Questions
 
