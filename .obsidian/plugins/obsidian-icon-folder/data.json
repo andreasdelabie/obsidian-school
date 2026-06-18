@@ -12,25 +12,37 @@
         "rule": "_Quick Notes",
         "icon": "LiPen",
         "for": "everything",
+        "order": 1
+      },
+      {
+        "rule": "_Archive",
+        "icon": "LiArchive",
+        "for": "everything",
         "order": 0
       },
       {
         "rule": "_Attachments",
         "icon": "LiLink",
         "for": "everything",
-        "order": 1
+        "order": 2
+      },
+      {
+        "rule": "_Tasks",
+        "icon": "LiListTodo",
+        "for": "everything",
+        "order": 3
       },
       {
         "rule": "Home",
         "icon": "LiHome",
         "for": "everything",
-        "order": 2
+        "order": 4
       },
       {
         "rule": "Templates",
         "icon": "LiBookTemplate",
         "for": "everything",
-        "order": 3
+        "order": 5
       }
     ],
     "extraMargin": {
