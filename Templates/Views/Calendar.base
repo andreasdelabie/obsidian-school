@@ -70,3 +70,6 @@ views:
       customDayCount: 3
       firstDay: 0
       slotDuration: 00:30:00
+    showScheduledToDueSpan: false
+    firstDay: "1"
+    calendarView: dayGridMonth

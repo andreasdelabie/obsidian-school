@@ -176,24 +176,13 @@
   },
   "customStatuses": [
     {
-      "id": "none",
-      "value": "none",
-      "label": "None",
-      "color": "#cccccc",
-      "isCompleted": false,
-      "excludeFromCycle": false,
-      "order": 0,
-      "autoArchive": false,
-      "autoArchiveDelay": 5
-    },
-    {
       "id": "open",
       "value": "open",
       "label": "Open",
       "color": "#808080",
       "isCompleted": false,
       "excludeFromCycle": false,
-      "order": 1,
+      "order": 0,
       "autoArchive": false,
       "autoArchiveDelay": 5
     },
@@ -204,7 +193,7 @@
       "color": "#0066cc",
       "isCompleted": false,
       "excludeFromCycle": false,
-      "order": 2,
+      "order": 1,
       "autoArchive": false,
       "autoArchiveDelay": 5
     },
@@ -215,7 +204,7 @@
       "color": "#00aa00",
       "isCompleted": true,
       "excludeFromCycle": false,
-      "order": 3,
+      "order": 2,
       "autoArchive": false,
       "autoArchiveDelay": 5
     }
@@ -499,6 +488,36 @@
     {
       "taskPath": "_Tasks/Duplicate the _Class folder.md",
       "requestedAt": 1781778410241,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/Untitled Task.md",
+      "requestedAt": 1781804156006,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/Deadline school yearbook.md",
+      "requestedAt": 1781804175797,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/Toets KGS.md",
+      "requestedAt": 1781804484619,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/Taak.md",
+      "requestedAt": 1781804765142,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/Taak oud nabije oosten.md",
+      "requestedAt": 1781804878781,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
     }

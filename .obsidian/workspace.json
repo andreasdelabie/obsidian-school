@@ -57,6 +57,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "05ca21dbc4090bcc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
           }
         ]
       }
@@ -119,6 +136,35 @@
               "icon": "links-going-out",
               "title": "Outgoing links from Home"
             }
+          },
+          {
+            "id": "ff350e16694d2d3e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "82c49b7891b4d3f3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
@@ -152,15 +198,21 @@
   },
   "active": "f15653b223f6859c",
   "lastOpenFiles": [
-    "Example/Example.md",
+    "Templates/Views/Tasks.base",
+    "Templates/Views/Calendar.base",
+    "_Tasks/_Archive/Taak oud nabije oosten.md",
+    "_Tasks/Taak.md",
     "Home.base",
+    "_Tasks/Toets KGS.md",
+    "_Tasks/_Archive/Deadline school yearbook.md",
+    "_Tasks/Untitled Task.md",
+    "Example/Example.md",
     "_Class/_Class.md",
     "_Class/Notes.base",
     "Example/2. Create new Cornell note.md",
     "Example/1. Setup new class folder.md",
     "Templates/Cornell Note.md",
     "Example/hi.md",
-    "Templates/Views/Tasks.base",
     "_Tasks/Duplicate the _Class folder.md",
     "Example/Notes.base",
     "HI/HI.md",
@@ -170,7 +222,6 @@
     "oi/_Class.md",
     "oi/_Attachments",
     "oi/Notes.base",
-    "oi",
     "Hi/_Class.md",
     "_Tasks/_Archive/HI.md",
     "TaskNotes/Start Here.md",
@@ -181,8 +232,6 @@
     "_Class/Les 1.md",
     "Untitled.md",
     "_Class/hii.md",
-    "Home.md",
-    "_Class/hi.md",
-    "Welcome.md"
+    "Home.md"
   ]
 }
