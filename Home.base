@@ -5,6 +5,11 @@ filters:
 views:
   - type: cards
     name: Classes
+    order:
+      - file.name
+      - teacher
     sort:
       - property: file.name
         direction: ASC
+    imageAspectRatio: 1
+    cardSize: 250

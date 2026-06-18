@@ -495,6 +495,12 @@
       "requestedAt": 1781719300088,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/Duplicate the _Class folder.md",
+      "requestedAt": 1781778410241,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
     }
   ]
 }

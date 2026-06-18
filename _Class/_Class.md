@@ -2,4 +2,4 @@
 teacher:
 ---
 
-![[Notes.base]]
+![[_Class/Notes.base]]
