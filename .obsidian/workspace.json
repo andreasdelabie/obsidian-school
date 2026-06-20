@@ -199,9 +199,13 @@
   },
   "active": "c8b2c5e4173cc79c",
   "lastOpenFiles": [
-    "Templates/Views/Home.base",
+    "Example/_Tasks/This is a less important task.md",
     "Home.md",
+    "Example/_Tasks/This is an important task!.md",
+    "Templates/Views/Relations.base",
+    "Example/_Tasks",
     "Example/Example.md",
+    "Templates/Views/Home.base",
     "Untitled.canvas",
     "_Attachments/Drawing 2026-06-20 11.30.17.excalidraw.md",
     "_Attachments",
@@ -227,14 +231,10 @@
     "HI/HI.md",
     "HI/Notes.base",
     "HI/_Attachments",
-    "HI",
     "oi/_Class.md",
-    "oi/_Attachments",
     "Hi/_Class.md",
     "_Tasks/_Archive/HI.md",
     "TaskNotes/Start Here.md",
-    "_Quick Notes/2026-06-17.md",
-    "_Class/Untitled.md",
-    "_Class/_Attachments/Untitled 2026-06-17 19.38.21.excalidraw.md"
+    "_Quick Notes/2026-06-17.md"
   ]
 }
