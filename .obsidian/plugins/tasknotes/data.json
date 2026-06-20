@@ -444,7 +444,7 @@
     "open-advanced-calendar-view": "Templates/Views/Calendar.base",
     "open-agenda-view": "",
     "pomodoro-stats-base": "",
-    "relationships": ""
+    "relationships": "Templates/Views/Relations.base"
   },
   "maintainDueDateOffsetInRecurring": false,
   "resetCheckboxesOnRecurrence": false,
@@ -518,6 +518,18 @@
     {
       "taskPath": "_Tasks/Taak oud nabije oosten.md",
       "requestedAt": 1781804878781,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/This is an important task!.md",
+      "requestedAt": 1781948733030,
+      "attempts": 0,
+      "lastError": "Google Calendar sync is not ready"
+    },
+    {
+      "taskPath": "_Tasks/This is a less important task.md",
+      "requestedAt": 1781948770454,
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
     }
