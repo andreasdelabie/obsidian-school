@@ -23,3 +23,6 @@ Currently, obsidian-school uses the following plugins:
 - [Find orphaned files and broken links](https://github.com/vinzent03/find-unlinked-files)
 - [List Callouts](https://github.com/mgmeyers/obsidian-list-callouts)
 - [Ribbon Divider](https://github.com/andrewmcgivery/obsidian-ribbon-divider)
+
+## Feel Free to Delete Me!
+If you don't need the tutorials, you can safely delete the `/Example` folder.
