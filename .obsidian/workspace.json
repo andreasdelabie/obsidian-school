@@ -198,11 +198,13 @@
   },
   "active": "f15653b223f6859c",
   "lastOpenFiles": [
-    "Example/Example.md",
+    "Templates/Views/Calendar.base",
+    "_Quick Notes/2026-06-20.md",
     "Home.base",
+    "_Quick Notes/2026-06-21.md",
+    "Example/Example.md",
     "Templates/_Class/_Class.md",
     "Example/1. Setup new class folder.md",
-    "Templates/Views/Calendar.base",
     "Templates/Views/Tasks.base",
     "Example/2. Create new Cornell note.md",
     "orphaned files output.md",
@@ -231,8 +233,6 @@
     "_Class/Untitled.md",
     "_Class/_Attachments/Untitled 2026-06-17 19.38.21.excalidraw.md",
     "Excalidraw/Drawing 2026-06-17 19.37.36.excalidraw.md",
-    "_Class/Les 1.md",
-    "Untitled.md",
-    "_Class/hii.md"
+    "_Class/Les 1.md"
   ]
 }
