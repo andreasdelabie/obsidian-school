@@ -1,0 +1,12 @@
+body {
+    --h1-color: #cba6f7;
+    --h2-color: #b4befe;
+    --h3-color: #94e2d5;
+    --h4-color: #f9e2af;
+    --h5-color: #fab387;
+    --h6-color: #f38ba8;
+
+    --accent-h: 267deg;
+    --accent-s: 84%;
+    --accent-l: 81%;
+}
