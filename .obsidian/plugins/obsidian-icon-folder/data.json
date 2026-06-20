@@ -5,20 +5,22 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "LiHome"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [
-      {
-        "rule": "_Quick Notes",
-        "icon": "LiPen",
-        "for": "everything",
-        "order": 1
-      },
       {
         "rule": "_Archive",
         "icon": "LiArchive",
         "for": "everything",
         "order": 0
+      },
+      {
+        "rule": "_Quick Notes",
+        "icon": "LiPen",
+        "for": "everything",
+        "order": 1
       },
       {
         "rule": "_Attachments",
@@ -31,12 +33,6 @@
         "icon": "LiListTodo",
         "for": "everything",
         "order": 3
-      },
-      {
-        "rule": "Home",
-        "icon": "LiHome",
-        "for": "everything",
-        "order": 4
       },
       {
         "rule": "Templates",
@@ -64,5 +60,6 @@
     "lucideIconPackType": "native",
     "debugMode": false,
     "useInternalPlugins": false
-  }
+  },
+  "Home.md": "LiHome"
 }
