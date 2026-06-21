@@ -58,6 +58,23 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "9e9bc19823d9642a",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
           }
         ]
       }
@@ -94,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.base",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,8 +177,9 @@
     "hiddenItems": {
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
-      "daily-notes:Open today's daily note": false,
       "graph:Open graph view": false,
+      "daily-notes:Open today's daily note": false,
+      "workspaces:Manage workspace layouts": false,
       "ribbon-divider:ribbon-divider-edd901d4-e854-496e-9c06-d082420098ce": false,
       "templates:Insert template": false,
       "bases:Create new base": false,
@@ -182,11 +200,12 @@
   },
   "active": "c8b2c5e4173cc79c",
   "lastOpenFiles": [
-    "_Tasks/Hi.md",
-    "Home.md",
-    "Templates/Cornell Note.md",
     "Example/Example.md",
+    "Home.md",
     "_Quick Notes/Untitled.md",
+    "_Quick Notes/Test.md",
+    "_Tasks/Hi.md",
+    "Templates/Cornell Note.md",
     "Templates/Views/Calendar.base",
     "Example/2. Create new Cornell note.md",
     "Example/_Tasks/This is a less important task.md",
@@ -218,7 +237,6 @@
     "HI/_Attachments",
     "oi/_Class.md",
     "Hi/_Class.md",
-    "_Tasks/_Archive/HI.md",
-    "TaskNotes/Start Here.md"
+    "_Tasks/_Archive/HI.md"
   ]
 }
