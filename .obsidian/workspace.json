@@ -43,7 +43,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -102,7 +104,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline"
             }
           },
           {
@@ -198,45 +200,6 @@
       "tasknotes:Open Pomodoro statistics": true
     }
   },
-  "active": "c8b2c5e4173cc79c",
-  "lastOpenFiles": [
-    "Example/Example.md",
-    "Home.md",
-    "_Quick Notes/Untitled.md",
-    "_Quick Notes/Test.md",
-    "_Tasks/Hi.md",
-    "Templates/Cornell Note.md",
-    "Templates/Views/Calendar.base",
-    "Example/2. Create new Cornell note.md",
-    "Example/_Tasks/This is a less important task.md",
-    "Example/_Tasks/This is an important task!.md",
-    "Templates/Views/Relations.base",
-    "Example/_Tasks",
-    "Templates/Views/Home.base",
-    "Untitled.canvas",
-    "_Attachments/Drawing 2026-06-20 11.30.17.excalidraw.md",
-    "_Attachments",
-    "Templates/Views/Tasks.base",
-    "_Quick Notes/2026-06-20.md",
-    "_Quick Notes/2026-06-21.md",
-    "Templates/_Class/_Class.md",
-    "Example/1. Setup new class folder.md",
-    "orphaned files output.md",
-    "Example/_Attachments/Pasted image 20260618195307.png",
-    "_Tasks/_Archive/Taak oud nabije oosten.md",
-    "_Tasks/Taak.md",
-    "_Tasks/Toets KGS.md",
-    "_Tasks/_Archive/Deadline school yearbook.md",
-    "_Tasks/Untitled Task.md",
-    "Templates/_Class/Notes.base",
-    "Example/hi.md",
-    "_Tasks/Duplicate the _Class folder.md",
-    "Example/Notes.base",
-    "HI/HI.md",
-    "HI/Notes.base",
-    "HI/_Attachments",
-    "oi/_Class.md",
-    "Hi/_Class.md",
-    "_Tasks/_Archive/HI.md"
-  ]
+  "active": "167c3b0844cb32f5",
+  "lastOpenFiles": []
 }

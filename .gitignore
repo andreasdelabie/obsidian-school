@@ -1,1 +1,11 @@
+# User-specific files
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/workspace
+.obsidian/workspace-mobile
+.obsidian/graph.json
+.obsidian/bookmarks.json
+
+# OS files
 .DS_Store
+Thumbs.db
