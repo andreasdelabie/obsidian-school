@@ -47,7 +47,7 @@ views:
     name: Manual Order
     groupBy:
       property: status
-      direction: ASC
+      direction: DESC
     order:
       - status
       - priority
@@ -63,7 +63,7 @@ views:
       - file.tasks
     sort:
       - property: tasknotes_manual_order
-        direction: DESC
+        direction: ASC
   - type: tasknotesTaskList
     name: All Tasks
     order:
