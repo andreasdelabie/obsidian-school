@@ -10248,7 +10248,8 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     margin-top: var(--size-4-2);
 }
 
-.tasknotes-plugin .absolute-fields {
+.tasknotes-plugin .relative-fields.reminder-modal__fields--hidden,
+.tasknotes-plugin .absolute-fields.reminder-modal__fields--hidden {
     display: none;
 }
 
@@ -10775,6 +10776,197 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 }
 
 
+/* ===== DEVICE-CODE-MODAL.CSS ===== */
+.tasknotes-device-code-modal {
+	padding: 20px;
+}
+
+.tasknotes-device-code-header {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin-bottom: 20px;
+	padding-bottom: 16px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.tasknotes-device-code-icon {
+	width: 24px;
+	height: 24px;
+	color: var(--interactive-accent);
+}
+
+.tasknotes-device-code-title {
+	margin: 0;
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.tasknotes-device-code-instructions {
+	margin-bottom: 20px;
+}
+
+.tasknotes-device-code-steps {
+	margin: 12px 0;
+	padding-left: 20px;
+}
+
+.tasknotes-device-code-steps li {
+	margin: 8px 0;
+	line-height: 1.6;
+}
+
+.tasknotes-device-code-link {
+	color: var(--interactive-accent);
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.tasknotes-device-code-link:hover {
+	text-decoration: underline;
+}
+
+.tasknotes-device-code-container {
+	margin: 20px 0;
+	padding: 16px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 8px;
+}
+
+.tasknotes-device-code-label {
+	margin-bottom: 8px;
+	color: var(--text-muted);
+	font-size: 0.9em;
+	font-weight: 500;
+}
+
+.tasknotes-device-code-box {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 12px;
+	background: var(--background-primary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+}
+
+.tasknotes-device-code-text {
+	flex: 1;
+	color: var(--text-normal);
+	font-family: var(--font-monospace);
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+
+.tasknotes-device-code-copy {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 8px;
+	color: var(--text-on-accent);
+	cursor: pointer;
+	background: var(--interactive-accent);
+	border: none;
+	border-radius: 4px;
+}
+
+.tasknotes-device-code-copy:hover {
+	background: var(--interactive-accent-hover);
+}
+
+.tasknotes-device-code-timer {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin: 16px 0;
+	padding: 12px;
+	background: var(--background-secondary);
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+}
+
+.tasknotes-device-code-timer-icon {
+	width: 16px;
+	height: 16px;
+	color: var(--text-muted);
+}
+
+.tasknotes-device-code-timer-text {
+	color: var(--text-muted);
+	font-size: 0.9em;
+}
+
+.tasknotes-device-code-status {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	margin: 16px 0;
+	padding: 12px;
+	background: var(--background-primary-alt);
+	border: 1px solid var(--interactive-accent);
+	border-radius: 6px;
+}
+
+.tasknotes-device-code-status-icon {
+	width: 20px;
+	height: 20px;
+	color: var(--interactive-accent);
+}
+
+.tasknotes-device-code-spinner {
+	animation: tasknotes-device-code-spin 1s linear infinite;
+}
+
+@keyframes tasknotes-device-code-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.tasknotes-device-code-status-text {
+	color: var(--text-muted);
+	font-weight: 500;
+}
+
+.tasknotes-device-code-buttons {
+	display: flex;
+	justify-content: flex-end;
+	gap: 12px;
+	margin-top: 20px;
+}
+
+.tasknotes-device-code-buttons button {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	padding: 8px 16px;
+	font-weight: 500;
+	cursor: pointer;
+	border-radius: 4px;
+}
+
+.tasknotes-device-code-cancel {
+	color: var(--text-normal);
+	background: var(--background-modifier-border);
+	border: 1px solid var(--background-modifier-border);
+}
+
+.tasknotes-device-code-cancel:hover {
+	background: var(--background-modifier-border-hover);
+}
+
+.tasknotes-device-code-button-icon {
+	width: 16px;
+	height: 16px;
+}
+
+
 /* ===== DATE-PICKER.CSS ===== */
 /* =====================================================================
    DATE PICKER MODAL - Enhanced Input Styling
@@ -11181,6 +11373,20 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 .task-selector-with-create-modal .prompt {
     display: flex;
     flex-direction: column;
+    width: min(720px, calc(100vw - 32px));
+    max-width: calc(100vw - 32px);
+}
+
+.task-selector-with-create-modal .suggestion-container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.task-selector-with-create-modal .suggestion-item {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
 /* ================================================
@@ -11193,10 +11399,27 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
     box-shadow: none;
     padding: var(--tn-spacing-sm) 0;
     margin: 0;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 .task-selector-with-create-modal .task-card:hover {
     background: transparent;
+}
+
+.task-selector-with-create-modal .task-card__main-row,
+.task-selector-with-create-modal .task-card__content,
+.task-selector-with-create-modal .task-card__title,
+.task-selector-with-create-modal .task-card__title-text {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.task-selector-with-create-modal .task-card__title-text {
+    word-break: normal;
+    overflow-wrap: anywhere;
 }
 
 /* Hide context menu icon in modal suggestions */
@@ -12247,6 +12470,22 @@ body.is-mobile .tasknotes-plugin .reminder-modal__action-btn svg {
 
     /* Allow filter dropdowns to extend beyond widget boundaries */
     overflow: visible;
+}
+
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget {
+    /*
+     * CodeMirror editor selection autoscroll can stop when drag selection reaches
+     * the non-editable widget after the editable document content.
+     */
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget input,
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget textarea,
+.markdown-source-view .cm-sizer > .tasknotes-relationships-widget [contenteditable="true"] {
+    -webkit-user-select: text;
+    user-select: text;
 }
 
 .is-readable-line-width .tasknotes-relationships-widget {
@@ -14636,6 +14875,7 @@ body.is-mobile .timeblock-attachment-remove {
     border-bottom: 1px solid var(--background-modifier-border-hover);
     background: var(--background-primary);
     color: var(--text-normal);
+    overflow: visible;
 }
 
 .advanced-calendar-view .fc-timegrid-slot {
@@ -15006,6 +15246,48 @@ body.is-mobile .advanced-calendar-view.advanced-calendar-view--list .fc-scroller
     white-space: normal;
 }
 
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-daygrid-event {
+    white-space: nowrap;
+}
+
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-event-main,
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-event-main-frame {
+    min-width: 0;
+}
+
+.advanced-calendar-view .fc-timegrid-all-day-events .fc-event-title {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-daygrid-event {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-main,
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-main-frame,
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-title-container {
+    min-width: 0;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-title-container {
+    overflow: hidden;
+}
+
+.advanced-calendar-view .fc-timegrid .fc-daygrid-body .fc-event-title {
+    display: block;
+    max-width: 100%;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .advanced-calendar-view .fc-timegrid-slot-label {
     font-size: 0.8rem;
     color: var(--text-muted);
@@ -15177,15 +15459,15 @@ body.is-mobile .advanced-calendar-view.advanced-calendar-view--list .fc-scroller
         display: none;
     }
 
-    .advanced-calendar-view .fc-timegrid-event.fc-task-event,
-    .advanced-calendar-view .fc-timegrid-event.fc-ics-event,
-    .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] {
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-task-event,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-ics-event,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] {
         background-color: var(--fc-event-border-color);
     }
 
-    .advanced-calendar-view .fc-timegrid-event.fc-task-event .fc-event-main,
-    .advanced-calendar-view .fc-timegrid-event.fc-ics-event .fc-event-main,
-    .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] .fc-event-main {
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-task-event .fc-event-main,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event.fc-ics-event .fc-event-main,
+    body.is-mobile .advanced-calendar-view .fc-timegrid-event[data-event-type="property-based"] .fc-event-main {
         color: var(--text-on-accent);
     }
 }
@@ -19101,15 +19383,34 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
    SETTINGS VIEW - MINIMAL CLEAN STRUCTURE
    ================================================ */
 
+/* Obsidian 1.13+ gives plugin setting-tab roots the `setting-item` class. Its
+   flex layout would place TaskNotes' toolbar and tab content side by side, so
+   restore the vertical document flow used by this settings view. */
+.modal.mod-settings .tasknotes-settings {
+    box-sizing: border-box;
+    display: block;
+}
+
+body:not(.is-mobile) .modal.mod-settings .tasknotes-settings {
+    padding-inline: var(--size-4-8);
+}
+
+body:not(.is-mobile) .modal.mod-settings .tasknotes-settings .settings-view__tab-content > .setting-group {
+    margin-inline: 0;
+}
+
 /* ================================================
    SETTINGS HEADER
    ================================================ */
 
+/* Wrap instead of clipping: at constrained pane widths the horizontal
+   overflow used to hide the final tab (Integrations) entirely (#2222). */
 .tasknotes-plugin .settings-view__toolbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: var(--tn-spacing-md);
+    flex-wrap: wrap;
+    gap: var(--tn-spacing-xs) var(--tn-spacing-md);
     margin-bottom: var(--tn-spacing-md);
 }
 
@@ -19117,6 +19418,7 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
     display: flex;
     flex-shrink: 0;
     justify-content: flex-end;
+    margin-inline-start: auto;
 }
 
 .tasknotes-plugin .settings-header-link {
@@ -19152,15 +19454,18 @@ body.is-mobile .tasknotes-plugin .kanban-view__swimlane-column {
 .tasknotes-plugin .settings-view__tab-nav {
     display: flex;
     align-items: center;
+    flex: 1 1 36rem;
+    flex-wrap: wrap;
     gap: var(--tn-spacing-xs);
-    width: fit-content;
+    min-width: 0;
+    width: auto;
     max-width: 100%;
     margin-bottom: 0;
     padding: 0;
     border: 0;
     background: transparent;
-    overflow-x: auto;
-    white-space: nowrap;
+    overflow: visible;
+    white-space: normal;
     scrollbar-width: thin;
 }
 
@@ -20499,6 +20804,80 @@ body.is-mobile .tasknotes-plugin .tasknotes-settings__card-action-btn {
 }
 
 
+/* ===== FIELD-MANAGER.CSS ===== */
+.tasknotes-plugin .field-manager {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.tasknotes-plugin .field-manager__tabs {
+	display: flex;
+	gap: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 2px solid var(--background-modifier-border);
+}
+
+.tasknotes-plugin .field-manager__tab {
+	padding: 0.5rem 1rem;
+	cursor: pointer;
+	border-radius: 4px;
+	transition: background-color 0.2s;
+}
+
+.tasknotes-plugin .field-manager__tab:hover {
+	background-color: var(--background-modifier-hover);
+}
+
+.tasknotes-plugin .field-manager__tab--active {
+	color: var(--text-on-accent);
+	background-color: var(--interactive-accent);
+}
+
+.tasknotes-plugin .field-manager__content {
+	padding: 1rem 0;
+}
+
+.tasknotes-plugin .field-manager__cards {
+	display: flex;
+	flex-direction: column;
+	gap: 0.75rem;
+}
+
+.tasknotes-plugin .field-manager__empty {
+	padding: 2rem;
+	color: var(--text-muted);
+	text-align: center;
+}
+
+.tasknotes-plugin .field-card__type {
+	padding: 0.125rem 0.5rem;
+	font-size: 0.75rem;
+	background: var(--background-modifier-border);
+	border-radius: 3px;
+}
+
+.tasknotes-plugin .field-card__type--core {
+	color: var(--text-on-accent);
+	background: var(--interactive-accent);
+}
+
+.tasknotes-plugin .field-card__type--user {
+	color: var(--text-on-accent);
+	background: var(--color-purple);
+}
+
+.tasknotes-plugin .field-card__type--dependency {
+	color: var(--text-on-accent);
+	background: var(--color-orange);
+}
+
+.tasknotes-plugin .field-card__type--organization {
+	color: var(--text-on-accent);
+	background: var(--color-green);
+}
+
+
 /* ===== WEBHOOK-SETTINGS.CSS ===== */
 /* 
  * Webhook Settings UI Styles
@@ -21335,6 +21714,18 @@ body.is-mobile .tn-tasknotesTaskList .tn-bases-items-container,
 body.is-mobile .tn-bases-tasknotes-list {
     padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
     scroll-padding-bottom: calc(128px + env(safe-area-inset-bottom, 0px));
+}
+
+body.is-mobile .internal-embed .tn-tasknotesTaskList .tn-bases-items-container,
+body.is-mobile .markdown-embed .tn-tasknotesTaskList .tn-bases-items-container {
+    padding-bottom: 0;
+    scroll-padding-bottom: 0;
+}
+
+body.is-mobile .internal-embed .tn-bases-tasknotes-list,
+body.is-mobile .markdown-embed .tn-bases-tasknotes-list {
+    padding-bottom: var(--tn-spacing-sm);
+    scroll-padding-bottom: 0;
 }
 
 /* Sidebar and popout note embeds already have a constrained note scroller. Let

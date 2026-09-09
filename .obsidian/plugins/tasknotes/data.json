@@ -146,6 +146,7 @@
     "scheduled": "scheduled",
     "contexts": "contexts",
     "projects": "projects",
+    "attachments": "attachments",
     "timeEstimate": "timeEstimate",
     "completedDate": "completedDate",
     "dateCreated": "dateCreated",
@@ -449,10 +450,6 @@
   "maintainDueDateOffsetInRecurring": false,
   "resetCheckboxesOnRecurrence": false,
   "useFrontmatterMarkdownLinks": false,
-  "googleOAuthClientId": "",
-  "googleOAuthClientSecret": "",
-  "microsoftOAuthClientId": "",
-  "microsoftOAuthClientSecret": "",
   "enableGoogleCalendar": false,
   "enableMicrosoftCalendar": false,
   "disableCalendarOnMobile": false,
@@ -477,7 +474,7 @@
     "defaultReminderMinutes": null
   },
   "enableDebugLogging": false,
-  "lastSeenVersion": "4.11.0",
+  "lastSeenVersion": "4.12.5",
   "googleCalendarSyncQueue": [
     {
       "taskPath": "_Tasks/HI.md",
@@ -539,5 +536,8 @@
       "attempts": 0,
       "lastError": "Google Calendar sync is not ready"
     }
-  ]
+  ],
+  "lastNotifiedReleaseVersion": "4.12.5",
+  "occurrenceFilenameTemplate": "",
+  "occurrenceFilenameTemplateProperty": "occurrenceFilenameTemplate"
 }
